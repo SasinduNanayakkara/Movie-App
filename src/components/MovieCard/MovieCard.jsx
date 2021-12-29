@@ -2,7 +2,7 @@ import React from 'react'
 import "./MovieCard.scss"
 import { Link } from 'react-router-dom';
 const MovieCard = (props) => {
-    const {data} = props;
+    const {data} = props; //assign the data
     return (
         <div className='card-item'>
             <Link to={`/movie/${data.imdbID}`}>
